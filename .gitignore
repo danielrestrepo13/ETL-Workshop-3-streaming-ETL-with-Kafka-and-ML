@@ -1,0 +1,40 @@
+# Virtual environment
+.venv/
+
+# Environment variables (contains real credentials)
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Docker volume data
+postgres-data/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Temporary / scratch files
+*.tmp
+*.log
+
+# Personal working notes (not part of the deliverable)
+docs/project_log.md
+docs/resumen_decisiones.md
+docs/Pasos para recrear Kafka - Demostracion.txt
+
+
+# -------------------------------------------------------
+# NOT excluded (required deliverables):
+#   data/raw/*.csv
+#   data/processed/
+#   data/streaming/
+#   models/model.pkl
+#   sql/create_tables.sql
+#   sql/kpis.sql
+#   dashboards/  (including .pbix)
+# -------------------------------------------------------
